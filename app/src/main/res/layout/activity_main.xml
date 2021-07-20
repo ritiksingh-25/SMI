@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000000">
+
+
+    <TextView
+        android:layout_width="298dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/fbgif"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="29dp"
+        android:background="#36C8CB  "
+        android:gravity="center"
+        android:text="Social Media Integration"
+        android:textColor="#000"
+        android:textColorHighlight="@color/com_facebook_device_auth_text"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/fbgif"
+        android:layout_width="378dp"
+        android:layout_height="299dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="323dp"
+        android:src="@drawable/fb3" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="386dp"
+        android:layout_height="283dp"
+        android:id="@+id/googlegif"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="29dp"
+        android:src="@drawable/google" />
+
+</RelativeLayout>
